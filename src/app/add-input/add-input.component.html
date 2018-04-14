@@ -1,0 +1,6 @@
+<form class="add-input input-group mb-3">
+  <input [(ngModel)]="InputText" type="text" name="somename" class="form-control" placeholder="Write Todo item here.." aria-label="Recipient's username" aria-describedby="basic-addon2">
+  <div class="input-group-append">
+    <button (click)="addItemToList()" class="btn btn-outline-secondary" type="submit">Add</button>
+  </div>
+</form>
